@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notification Reminders</string>
+    <string name="status_channel_name">Reminder status</string>
+    <plurals name="status_title">
+        <item quantity="one">Reminding about %d app</item>
+        <item quantity="other">Reminding about %d apps</item>
+    </plurals>
+    <string name="action_stop_all">Stop all</string>
+    <string name="action_snooze_minutes">Snooze %1$d min</string>
+
+    <string name="duration_seconds">%1$d s</string>
+    <string name="duration_minutes_seconds">%1$d min %2$d s</string>
+    <string name="duration_minutes">%1$d min</string>
+    <string name="duration_hours">%1$d h</string>
+    <string name="duration_hours_minutes">%1$d h %2$d min</string>
+
+    <string name="vibration_none">None</string>
+    <string name="vibration_short">Short pulse</string>
+    <string name="vibration_long">Long pulse</string>
+    <string name="vibration_double">Double pulse</string>
+    <string name="vibration_triple">Triple pulse</string>
+    <string name="vibration_heartbeat">Heartbeat</string>
+    <string name="vibration_sos">SOS</string>
+    <string name="vibration_ramp">Rising</string>
+    <string name="vibration_continuous">Continuous</string>
+
+    <string name="channel_notification">Notification</string>
+    <string name="channel_alarm">Alarm</string>
+    <string name="channel_ringtone">Ringtone</string>
+    <string name="channel_media">Media</string>
+
+    <string name="section_repetition">Repetition</string>
+    <string name="repeat_every">Repeat every</string>
+    <string name="alert_duration">Each reminder lasts</string>
+    <string name="keep_reminding_for">Keep reminding for</string>
+    <string name="until_dismissed">Until dismissed</string>
+    <string name="max_repeats">Maximum reminders</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="restart_on_new">Restart on new notification</string>
+    <string name="restart_on_new_hint">A new notification from the app resets the duration and the reminder count</string>
+
+    <string name="all_day">all day</string>
+    <string name="next_day">next day</string>
+    <string name="remove">Remove</string>
+    <string name="add_time_window">Add time window</string>
+
+    <string name="section_vibration">Vibration</string>
+    <string name="vibration_type">Pattern</string>
+    <string name="vibration_intensity">Intensity</string>
+    <string name="no_amplitude_control">This device does not support vibration intensity control.</string>
+    <string name="test_vibration">Test vibration</string>
+
+    <string name="section_sound">Sound</string>
+    <string name="play_sound">Play sound</string>
+    <string name="melody">Melody</string>
+    <string name="default_sound">System default notification sound</string>
+    <string name="system_sounds">System sounds</string>
+    <string name="audio_file">Audio file</string>
+    <string name="reset_default">Use default</string>
+    <string name="volume">Volume</string>
+    <string name="audio_channel">Play as</string>
+    <string name="force_volume">Override system volume</string>
+    <string name="force_volume_hint">Temporarily sets the volume of the chosen channel to this level while the reminder plays</string>
+    <string name="test_sound">Test sound</string>
+
+    <string name="section_behaviour">Behaviour</string>
+    <string name="respect_silent">Respect silent mode and Do Not Disturb</string>
+    <string name="respect_silent_hint">No sound in vibrate mode, nothing at all in silent mode or Do Not Disturb</string>
+    <string name="ignore_silent_notifications">Ignore silent notifications</string>
+    <string name="ignore_silent_notifications_hint">Only remind about notifications that made a sound or popped up</string>
+    <string name="stop">Stop</string>
+
+    <string name="choose_apps">Choose apps</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+    <string name="search_apps">Search apps</string>
+    <string name="show_system_apps">Show system apps</string>
+    <plurals name="selected_count">
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+
+    <string name="reminders_enabled">Reminders enabled</string>
+    <string name="snoozed_until">Snoozed until %1$s</string>
+    <string name="resume">Resume</string>
+    <string name="section_active">Active reminders</string>
+    <plurals name="active_status">
+        <item quantity="one">Reminded once, next at %2$s</item>
+        <item quantity="other">Reminded %1$d times, next at %2$s</item>
+    </plurals>
+    <string name="section_apps">Monitored apps</string>
+    <string name="no_apps">No apps selected yet. Add the apps whose notifications you do not want to miss.</string>
+    <string name="add_apps">Add apps</string>
+    <string name="section_general">General</string>
+    <string name="stop_on_unlock">Stop when phone is unlocked</string>
+    <string name="stop_on_unlock_hint">Unlocking the phone acknowledges all pending reminders</string>
+    <string name="alarm_clock_mode">Maximum reliability</string>
+    <string name="alarm_clock_mode_hint">Schedules reminders as alarm clocks, so battery saving cannot delay them. An alarm icon appears in the status bar while reminders are pending.</string>
+    <string name="test_alert">Test default alert</string>
+
+    <string name="section_permissions">Permissions</string>
+    <string name="perm_notification_access">Notification access</string>
+    <string name="perm_notification_access_hint">Required to detect notifications of the monitored apps</string>
+    <string name="restricted_settings_hint">If Android reports a restricted setting, open App info, tap the ⋮ menu, choose “Allow restricted settings” and try again.</string>
+    <string name="open_app_info">Open App info</string>
+    <string name="perm_post_notifications">Show notifications</string>
+    <string name="perm_post_notifications_hint">Shows the status notification with Stop and Snooze actions</string>
+    <string name="perm_exact_alarms">Alarms and reminders</string>
+    <string name="perm_exact_alarms_hint">Needed for reminders to sound exactly on time</string>
+    <string name="perm_battery">Unrestricted battery use</string>
+    <string name="perm_battery_hint">Prevents battery saving from delaying or stopping reminders</string>
+    <string name="grant">Grant</string>
+
+
+    <string name="section_remind_about">Remind about</string>
+    <string name="source_missed_calls">Missed calls</string>
+    <string name="source_messages">SMS and MMS</string>
+
+    <string name="section_light">Screen, flash and LED</string>
+    <string name="screen_on">Turn on screen</string>
+    <string name="screen_on_hint">Lights up the screen at each reminder, if it is off</string>
+    <string name="flash">Flash</string>
+    <string name="flash_hint">Blinks the camera flash at each reminder</string>
+    <string name="no_flash">This device has no camera flash</string>
+    <string name="flash_pattern">Blink pattern</string>
+    <string name="flash_short">Short blinks</string>
+    <string name="flash_long">Long blinks</string>
+    <string name="flash_double">Double blinks</string>
+    <string name="flash_strobe">Strobe</string>
+    <string name="flash_sos">SOS</string>
+    <string name="test_flash">Test flash</string>
+    <string name="led">LED</string>
+    <string name="led_hint">Blinks the notification LED while reminders are pending. Only on devices with a notification LED, and only while the screen is off.</string>
+    <string name="led_channel_name">Reminder status with LED</string>
+    <string name="color_white">White</string>
+    <string name="color_red">Red</string>
+    <string name="color_green">Green</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_cyan">Cyan</string>
+    <string name="color_magenta">Magenta</string>
+
+    <string name="profiles">Reminder profiles</string>
+    <string name="profile_selection">Active profile</string>
+    <string name="profile_automatic">Automatic by schedule</string>
+    <string name="profile_day">Day</string>
+    <string name="new_profile_name">Profile %1$d</string>
+    <string name="add_profile">Add profile</string>
+    <string name="active_now">Active now</string>
+    <string name="not_active_now">Not active now</string>
+    <string name="schedule_fallback">At all other times</string>
+    <string name="every_day">every day</string>
+    <string name="weekdays">Monday to Friday</string>
+    <string name="weekends">weekends</string>
+    <string name="section_profile">Profile</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_enabled">Profile enabled</string>
+    <string name="section_schedule">Schedule</string>
+    <string name="schedule_hint">A profile with a schedule applies inside its time windows. A profile without a schedule applies at all other times.</string>
+    <string name="schedule_fallback_hint">No schedule: this profile applies whenever no scheduled profile does.</string>
+    <string name="source_in_profile">In profile %1$s</string>
+    <string name="profile_removed">This profile no longer exists.</string>
+    <string name="delete_profile">Delete profile</string>
+    <string name="delete_profile_confirm">Delete the profile %1$s and its settings?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="mode_off">No reminder</string>
+    <string name="mode_phone">Phone\'s sound and vibration</string>
+    <string name="mode_common">Common settings</string>
+    <string name="mode_custom">Custom settings</string>
+    <string name="mode_phone_hint">Uses the phone\'s notification sound at the phone\'s volume and follows ring, vibrate and silent mode, or the sound profile of a contact exception for its contacts. Repeats as set in the common settings.</string>
+    <string name="source_apps">Apps</string>
+    <string name="common_settings">Common settings</string>
+    <string name="common_settings_hint">Shared by every type of this profile set to Common settings. Its repetition also applies to Phone\'s sound and vibration.</string>
+    <string name="edit_common_settings">Edit common settings</string>
+    <string name="edit_custom_settings">Edit custom settings</string>
+    <string name="custom_settings_title">%1$s: custom settings</string>
+    <string name="summary_every">Every %1$s</string>
+    <string name="summary_sound">sound %1$d%%</string>
+    <string name="no_profiles">No profiles. Add one to receive reminders.</string>
+    <string name="no_apps_short">No apps selected</string>
+    <plurals name="apps_selected">
+        <item quantity="one">%d app selected</item>
+        <item quantity="other">%d apps selected</item>
+    </plurals>
+    <string name="apps_hint">Notifications of these apps are reminded as set for Apps in each profile.</string>
+
+    <string name="sound_profiles">Sound profiles</string>
+    <string name="sound_profiles_hint">Tap a profile to set the phone\'s ringer mode, volumes and vibration. Independent of the reminders. Also available as a quick settings tile.</string>
+    <string name="sound_loud">Loud</string>
+    <string name="sound_normal">Normal</string>
+    <string name="sound_silent">Silent</string>
+    <string name="new_sound_profile_name">Sound profile %1$d</string>
+    <string name="add_sound_profile">Add sound profile</string>
+    <string name="delete_sound_profile">Delete sound profile</string>
+    <string name="sound_profile_applied">%1$s applied</string>
+    <string name="sound_profile_partly_applied">Some settings could not be changed. Grant Do Not Disturb access and Modify system settings in the Permissions card.</string>
+    <string name="sound_profile_no_changes">Changes nothing</string>
+    <string name="volume_summary">%1$s %2$d%%</string>
+    <string name="edit">Edit</string>
+    <string name="apply_now">Apply now</string>
+    <string name="ringer_mode">Ringer mode</string>
+    <string name="keep_unchanged">Keep unchanged</string>
+    <string name="ringer_normal">Sound</string>
+    <string name="ringer_vibrate">Vibrate</string>
+    <string name="ringer_silent">Silent</string>
+    <string name="section_volumes">Volumes</string>
+    <string name="volumes_hint">Switch on the volumes this profile sets. In vibrate and silent mode the ring and notification volumes are left alone.</string>
+    <string name="stream_ring">Ring</string>
+    <string name="stream_notification">Notifications</string>
+    <string name="stream_media">Media</string>
+    <string name="stream_alarm">Alarms</string>
+    <string name="stream_system">System</string>
+    <string name="stream_call">Calls</string>
+    <string name="vibrate_when_ringing">Vibrate for calls</string>
+    <string name="touch_vibration">Touch vibration</string>
+    <string name="system_settings_hint">Needs Modify system settings. Some phones do not allow apps to change these two settings.</string>
+    <string name="toggle_on">On</string>
+    <string name="toggle_off">Off</string>
+    <string name="do_not_disturb">Do Not Disturb</string>
+    <string name="dnd_off">Off</string>
+    <string name="dnd_priority">Priority only</string>
+    <string name="dnd_alarms">Alarms only</string>
+    <string name="dnd_total_silence">Total silence</string>
+    <string name="perm_dnd_access">Do Not Disturb access</string>
+    <string name="perm_dnd_access_hint">Lets sound profiles switch silent mode and Do Not Disturb</string>
+    <string name="perm_write_settings">Modify system settings</string>
+    <string name="perm_write_settings_hint">Lets sound profiles change vibrate for calls and touch vibration</string>
+
+    <string name="sound_lock">Lock sound settings</string>
+    <string name="sound_lock_off_hint">Unlocked. Switch on to keep the current ringer mode, volumes, vibration and Do Not Disturb until you unlock them here.</string>
+    <string name="sound_lock_on_hint">Locked. Changes made with the volume buttons, in the phone settings or by other apps are undone at once. Applying a sound profile here moves the lock to it.</string>
+    <string name="block_volume_buttons">Block volume buttons while locked</string>
+    <string name="block_volume_buttons_hint">Uses an accessibility service so the volume buttons do nothing while locked. Tap to switch it on or off in the accessibility settings.</string>
+    <string name="sound_lock_needs_service">The lock is not active: grant Notification access or switch on the volume button blocking, so the app can keep watching the sound settings.</string>
+    <string name="sound_locked_toast">Sound settings are locked. Unlock them in Notification Reminders.</string>
+    <string name="accessibility_label">Notification Reminders sound lock</string>
+    <string name="accessibility_description">Blocks the volume buttons while the sound settings are locked in Notification Reminders. It does not read screen content.</string>
+
+    <string name="lock_includes_app">Lock also applies to this app</string>
+    <string name="lock_includes_app_off_hint">Off: while locked, sound profiles applied here and reminders that raise the volume still work.</string>
+    <string name="lock_includes_app_on_hint">On: while locked, sound profiles cannot be applied and reminders play without raising the volume. Unlock first to change anything.</string>
+    <string name="sound_locked_for_app_toast">Sound settings are locked, also for this app. Unlock them first.</string>
+
+    <string name="profile_status_channel">Selected profile</string>
+    <string name="status_title_locked">%1$s (locked)</string>
+    <string name="status_reminder_profile">Reminder profile: %1$s</string>
+    <string name="status_reminders_off">Reminders are off</string>
+    <string name="status_no_reminder_profile">No reminder profile active</string>
+    <string name="show_in_status_bar">Show in status bar</string>
+    <string name="show_in_status_bar_hint">Shows the selected profile\'s icon at the top of the screen, with the notification icons. Pull down to see the sound and reminder profiles and switch profile.</string>
+    <string name="profile_icon">Icon</string>
+    <string name="icon_volume_up">Loud speaker</string>
+    <string name="icon_volume_down">Quiet speaker</string>
+    <string name="icon_vibrate">Vibration</string>
+    <string name="icon_mute">Muted speaker</string>
+    <string name="icon_bell">Bell</string>
+    <string name="icon_moon">Moon</string>
+    <string name="icon_letter">First letter of the name</string>
+
+    <string name="wifi_rules">Wi-Fi networks</string>
+    <string name="wifi_connected_to">Connected to %1$s</string>
+    <string name="wifi_not_connected">Not connected to Wi-Fi, or the network name is not visible (see Location below in a rule).</string>
+    <string name="wifi_rule_active">(connected)</string>
+    <string name="wifi_summary_locked">locked while connected</string>
+    <string name="wifi_summary_manual">can be changed by hand</string>
+    <string name="wifi_profile_missing">Deleted profile</string>
+    <string name="add_wifi_rule">Add Wi-Fi network</string>
+    <string name="delete_wifi_rule">Delete Wi-Fi rule</string>
+    <string name="delete_wifi_rule_confirm">Delete the rule for %1$s?</string>
+    <string name="wifi_rule">Wi-Fi rule</string>
+    <string name="wifi_network">Network</string>
+    <string name="wifi_network_name">Wi-Fi network name (SSID)</string>
+    <string name="wifi_use_current">Use current network: %1$s</string>
+    <string name="wifi_name_hidden_hint">The current network name is not visible. Connect to the network and grant the location access below, then tap Use current network, or type the name exactly.</string>
+    <string name="wifi_when_connected">When connected</string>
+    <string name="wifi_apply_profile">Sound profile</string>
+    <string name="wifi_while_connected">While connected</string>
+    <string name="wifi_lock">Lock this profile</string>
+    <string name="wifi_manual">Allow changing by hand</string>
+    <string name="wifi_lock_hint">The sound settings are locked while the phone is on this network and unlocked when it leaves. You can still unlock them in the app.</string>
+    <string name="wifi_manual_hint">The profile is applied once when the phone connects. Afterwards you can change profiles freely.</string>
+    <string name="wifi_restore_previous_hint">When the phone leaves this network, the sound profile selected before connecting is applied again.</string>
+    <string name="wifi_rule_enabled">Rule enabled</string>
+    <string name="perm_location">Location access</string>
+    <string name="perm_location_hint">Android reveals the Wi-Fi network name only to apps with location access. The app does not use your location.</string>
+    <string name="perm_background_location">Location access all the time</string>
+    <string name="perm_background_location_hint">Needed to recognise the network while the app is closed. Choose Allow all the time.</string>
+    <string name="location_services">Location services on</string>
+    <string name="location_services_hint">Android hides Wi-Fi network names while location is switched off</string>
+    <string name="status_with_wifi">%1$s, Wi-Fi rule: %2$s</string>
+
+    <string name="wifi_choose_from_list">Choose from list</string>
+    <string name="wifi_list_current">Connected now</string>
+    <string name="wifi_list_known">Connected before</string>
+    <string name="wifi_list_known_empty">None yet. Networks appear here after the phone connects to them while the app is installed.</string>
+    <string name="wifi_list_nearby">In range</string>
+    <string name="wifi_list_nearby_empty">None found. Location access and location services are needed to see nearby networks.</string>
+    <string name="wifi_list_hint">Android does not let apps read the phone\'s list of saved networks, so this list shows networks the app saw the phone connect to and networks in range now.</string>
+
+    <string name="contact_exceptions">Contact exceptions</string>
+    <string name="contact_exceptions_hint">Chosen contacts and contact groups use their own sound profile instead of the current one.</string>
+    <string name="new_contact_exception_name">Exception %1$d</string>
+    <string name="add_contact_exception">Add contact exception</string>
+    <string name="delete_contact_exception">Delete contact exception</string>
+    <plurals name="exception_people">
+        <item quantity="one">%d contact or group</item>
+        <item quantity="other">%d contacts or groups</item>
+    </plurals>
+    <string name="exception_people_title">Contacts and groups</string>
+    <string name="exception_contacts">Contacts</string>
+    <string name="exception_no_contacts">No contacts chosen</string>
+    <string name="exception_add_contact">Add contact</string>
+    <string name="exception_groups">Contact groups</string>
+    <string name="exception_no_groups">No contact groups on this phone. Create groups (labels) in the Contacts app.</string>
+    <string name="exception_applies_to">Applies to</string>
+    <string name="exception_calls">Incoming calls</string>
+    <string name="exception_calls_hint">The phone rings with this sound profile, and the previous settings return when the call ends</string>
+    <string name="exception_calls_unsupported">Incoming calls need Android 10 or later.</string>
+    <string name="exception_messages">Messages and app notifications</string>
+    <string name="exception_messages_hint">SMS and notifications of the selected apps from these contacts get an alert of their own with this sound profile</string>
+    <string name="exception_reminders_hint">Reminders set to Phone\'s sound and vibration also use this sound profile for these contacts.</string>
+    <string name="perm_contacts">Contacts access</string>
+    <string name="perm_contacts_hint">Needed to choose contacts and groups and to recognise callers and senders</string>
+    <string name="perm_call_screening">Caller ID and spam app</string>
+    <string name="perm_call_screening_hint">Lets the app hear about a call before the phone rings, to switch the sound profile in time. Calls are never blocked.</string>
+
+    <string name="quiet_wifi">Quiet on Wi-Fi networks</string>
+    <string name="quiet_wifi_hint">No reminders with these settings while the phone is connected to these networks, for example at home. Notifications that arrive there are never reminded. Reminders that started elsewhere pause while connected and continue after leaving.</string>
+    <string name="quiet_add_network">Add network</string>
+    <string name="quiet_all">All notifications</string>
+    <string name="quiet_on_network">Quiet on %1$s</string>
+    <string name="quiet_needs_location">To recognise networks, grant the location access shown in a Wi-Fi rule of the Sound profiles card.</string>
+</resources>

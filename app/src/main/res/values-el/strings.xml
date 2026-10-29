@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Υπενθυμίσεις ειδοποιήσεων</string>
+    <string name="status_channel_name">Κατάσταση υπενθυμίσεων</string>
+    <plurals name="status_title">
+        <item quantity="one">Υπενθύμιση για %d εφαρμογή</item>
+        <item quantity="other">Υπενθύμιση για %d εφαρμογές</item>
+    </plurals>
+    <string name="action_stop_all">Διακοπή όλων</string>
+    <string name="action_snooze_minutes">Αναβολή %1$d λεπτά</string>
+
+    <string name="duration_seconds">%1$d δευτ.</string>
+    <string name="duration_minutes_seconds">%1$d λεπτ. %2$d δευτ.</string>
+    <string name="duration_minutes">%1$d λεπτ.</string>
+    <string name="duration_hours">%1$d ώρ.</string>
+    <string name="duration_hours_minutes">%1$d ώρ. %2$d λεπτ.</string>
+
+    <string name="vibration_none">Καμία</string>
+    <string name="vibration_short">Σύντομος παλμός</string>
+    <string name="vibration_long">Μακρύς παλμός</string>
+    <string name="vibration_double">Διπλός παλμός</string>
+    <string name="vibration_triple">Τριπλός παλμός</string>
+    <string name="vibration_heartbeat">Καρδιακός παλμός</string>
+    <string name="vibration_sos">Σήμα SOS</string>
+    <string name="vibration_ramp">Κλιμακούμενη</string>
+    <string name="vibration_continuous">Συνεχής</string>
+
+    <string name="channel_notification">Ειδοποίηση</string>
+    <string name="channel_alarm">Ξυπνητήρι</string>
+    <string name="channel_ringtone">Ήχος κλήσης</string>
+    <string name="channel_media">Πολυμέσα</string>
+
+    <string name="section_repetition">Επανάληψη</string>
+    <string name="repeat_every">Επανάληψη κάθε</string>
+    <string name="alert_duration">Διάρκεια κάθε υπενθύμισης</string>
+    <string name="keep_reminding_for">Συνέχιση υπενθυμίσεων για</string>
+    <string name="until_dismissed">Μέχρι την απόρριψη</string>
+    <string name="max_repeats">Μέγιστος αριθμός υπενθυμίσεων</string>
+    <string name="unlimited">Απεριόριστος</string>
+    <string name="restart_on_new">Επανεκκίνηση με νέα ειδοποίηση</string>
+    <string name="restart_on_new_hint">Μια νέα ειδοποίηση της εφαρμογής μηδενίζει τη διάρκεια και τον αριθμό των υπενθυμίσεων</string>
+
+    <string name="all_day">όλη την ημέρα</string>
+    <string name="next_day">επόμενη ημέρα</string>
+    <string name="remove">Αφαίρεση</string>
+    <string name="add_time_window">Προσθήκη χρονικού διαστήματος</string>
+
+    <string name="section_vibration">Δόνηση</string>
+    <string name="vibration_type">Μοτίβο</string>
+    <string name="vibration_intensity">Ένταση</string>
+    <string name="no_amplitude_control">Η συσκευή δεν υποστηρίζει ρύθμιση της έντασης δόνησης.</string>
+    <string name="test_vibration">Δοκιμή δόνησης</string>
+
+    <string name="section_sound">Ήχος</string>
+    <string name="play_sound">Αναπαραγωγή ήχου</string>
+    <string name="melody">Μελωδία</string>
+    <string name="default_sound">Προεπιλεγμένος ήχος ειδοποίησης συστήματος</string>
+    <string name="system_sounds">Ήχοι συστήματος</string>
+    <string name="audio_file">Αρχείο ήχου</string>
+    <string name="reset_default">Προεπιλογή</string>
+    <string name="volume">Ένταση ήχου</string>
+    <string name="audio_channel">Αναπαραγωγή ως</string>
+    <string name="force_volume">Παράκαμψη έντασης συστήματος</string>
+    <string name="force_volume_hint">Ορίζει προσωρινά την ένταση του επιλεγμένου καναλιού σε αυτό το επίπεδο κατά την αναπαραγωγή της υπενθύμισης</string>
+    <string name="test_sound">Δοκιμή ήχου</string>
+
+    <string name="section_behaviour">Συμπεριφορά</string>
+    <string name="respect_silent">Σεβασμός αθόρυβης λειτουργίας και «Μην ενοχλείτε»</string>
+    <string name="respect_silent_hint">Χωρίς ήχο σε λειτουργία δόνησης, τίποτα σε αθόρυβη λειτουργία ή «Μην ενοχλείτε»</string>
+    <string name="ignore_silent_notifications">Παράβλεψη αθόρυβων ειδοποιήσεων</string>
+    <string name="ignore_silent_notifications_hint">Υπενθύμιση μόνο για ειδοποιήσεις που έπαιξαν ήχο ή εμφανίστηκαν στην οθόνη</string>
+    <string name="stop">Διακοπή</string>
+
+    <string name="choose_apps">Επιλογή εφαρμογών</string>
+    <string name="back">Πίσω</string>
+    <string name="done">Τέλος</string>
+    <string name="search_apps">Αναζήτηση εφαρμογών</string>
+    <string name="show_system_apps">Εμφάνιση εφαρμογών συστήματος</string>
+    <plurals name="selected_count">
+        <item quantity="one">%1$d επιλεγμένη</item>
+        <item quantity="other">%1$d επιλεγμένες</item>
+    </plurals>
+
+    <string name="reminders_enabled">Ενεργές υπενθυμίσεις</string>
+    <string name="snoozed_until">Σε αναβολή έως %1$s</string>
+    <string name="resume">Συνέχιση</string>
+    <string name="section_active">Τρέχουσες υπενθυμίσεις</string>
+    <plurals name="active_status">
+        <item quantity="one">%1$d υπενθύμιση, επόμενη στις %2$s</item>
+        <item quantity="other">%1$d υπενθυμίσεις, επόμενη στις %2$s</item>
+    </plurals>
+    <string name="section_apps">Παρακολουθούμενες εφαρμογές</string>
+    <string name="no_apps">Δεν έχουν επιλεγεί εφαρμογές. Προσθέστε τις εφαρμογές των οποίων τις ειδοποιήσεις δεν θέλετε να χάνετε.</string>
+    <string name="add_apps">Προσθήκη εφαρμογών</string>
+    <string name="section_general">Γενικά</string>
+    <string name="stop_on_unlock">Διακοπή με το ξεκλείδωμα του τηλεφώνου</string>
+    <string name="stop_on_unlock_hint">Το ξεκλείδωμα του τηλεφώνου επιβεβαιώνει όλες τις εκκρεμείς υπενθυμίσεις</string>
+    <string name="alarm_clock_mode">Μέγιστη αξιοπιστία</string>
+    <string name="alarm_clock_mode_hint">Προγραμματίζει τις υπενθυμίσεις ως ξυπνητήρια, ώστε η εξοικονόμηση μπαταρίας να μην τις καθυστερεί. Όσο υπάρχουν εκκρεμείς υπενθυμίσεις εμφανίζεται εικονίδιο ξυπνητηριού στη γραμμή κατάστασης.</string>
+    <string name="test_alert">Δοκιμή προεπιλεγμένης υπενθύμισης</string>
+
+    <string name="section_permissions">Άδειες</string>
+    <string name="perm_notification_access">Πρόσβαση στις ειδοποιήσεις</string>
+    <string name="perm_notification_access_hint">Απαιτείται για τον εντοπισμό των ειδοποιήσεων των παρακολουθούμενων εφαρμογών</string>
+    <string name="restricted_settings_hint">Αν το Android αναφέρει περιορισμένη ρύθμιση, ανοίξτε τις Πληροφορίες εφαρμογής, πατήστε το μενού ⋮, επιλέξτε «Να επιτρέπονται οι περιορισμένες ρυθμίσεις» και δοκιμάστε ξανά.</string>
+    <string name="open_app_info">Πληροφορίες εφαρμογής</string>
+    <string name="perm_post_notifications">Εμφάνιση ειδοποιήσεων</string>
+    <string name="perm_post_notifications_hint">Εμφανίζει την ειδοποίηση κατάστασης με τις ενέργειες Διακοπή και Αναβολή</string>
+    <string name="perm_exact_alarms">Ξυπνητήρια και υπενθυμίσεις</string>
+    <string name="perm_exact_alarms_hint">Απαιτείται ώστε οι υπενθυμίσεις να ακούγονται ακριβώς στην ώρα τους</string>
+    <string name="perm_battery">Χρήση μπαταρίας χωρίς περιορισμούς</string>
+    <string name="perm_battery_hint">Αποτρέπει την εξοικονόμηση μπαταρίας από το να καθυστερεί ή να σταματά τις υπενθυμίσεις</string>
+    <string name="grant">Παραχώρηση</string>
+
+
+    <string name="section_remind_about">Υπενθύμιση για</string>
+    <string name="source_missed_calls">Αναπάντητες κλήσεις</string>
+    <string name="source_messages">Μηνύματα SMS και MMS</string>
+
+    <string name="section_light">Οθόνη, φλας και LED</string>
+    <string name="screen_on">Ενεργοποίηση οθόνης</string>
+    <string name="screen_on_hint">Ανάβει την οθόνη σε κάθε υπενθύμιση, αν είναι σβηστή</string>
+    <string name="flash">Φλας</string>
+    <string name="flash_hint">Αναβοσβήνει το φλας της κάμερας σε κάθε υπενθύμιση</string>
+    <string name="no_flash">Η συσκευή δεν διαθέτει φλας κάμερας</string>
+    <string name="flash_pattern">Μοτίβο αναλαμπής</string>
+    <string name="flash_short">Σύντομες αναλαμπές</string>
+    <string name="flash_long">Μακριές αναλαμπές</string>
+    <string name="flash_double">Διπλές αναλαμπές</string>
+    <string name="flash_strobe">Στροβοσκοπικό</string>
+    <string name="flash_sos">Σήμα SOS</string>
+    <string name="test_flash">Δοκιμή φλας</string>
+    <string name="led">Ενδεικτική λυχνία LED</string>
+    <string name="led_hint">Αναβοσβήνει την ενδεικτική λυχνία LED όσο υπάρχουν εκκρεμείς υπενθυμίσεις. Μόνο σε συσκευές με λυχνία LED ειδοποιήσεων και μόνο όταν η οθόνη είναι σβηστή.</string>
+    <string name="led_channel_name">Κατάσταση υπενθυμίσεων με λυχνία LED</string>
+    <string name="color_white">Λευκό</string>
+    <string name="color_red">Κόκκινο</string>
+    <string name="color_green">Πράσινο</string>
+    <string name="color_blue">Μπλε</string>
+    <string name="color_yellow">Κίτρινο</string>
+    <string name="color_cyan">Κυανό</string>
+    <string name="color_magenta">Ματζέντα</string>
+
+    <string name="profiles">Προφίλ υπενθυμίσεων</string>
+    <string name="profile_selection">Ενεργό προφίλ</string>
+    <string name="profile_automatic">Αυτόματα με βάση το πρόγραμμα</string>
+    <string name="profile_day">Ημέρα</string>
+    <string name="new_profile_name">Προφίλ %1$d</string>
+    <string name="add_profile">Προσθήκη προφίλ</string>
+    <string name="active_now">Ενεργό τώρα</string>
+    <string name="not_active_now">Μη ενεργό τώρα</string>
+    <string name="schedule_fallback">Όλες τις υπόλοιπες ώρες</string>
+    <string name="every_day">κάθε ημέρα</string>
+    <string name="weekdays">Δευτέρα έως Παρασκευή</string>
+    <string name="weekends">Σαββατοκύριακα</string>
+    <string name="section_profile">Προφίλ</string>
+    <string name="profile_name">Όνομα</string>
+    <string name="profile_enabled">Ενεργοποιημένο προφίλ</string>
+    <string name="section_schedule">Πρόγραμμα</string>
+    <string name="schedule_hint">Ένα προφίλ με πρόγραμμα ισχύει μέσα στα χρονικά του διαστήματα. Ένα προφίλ χωρίς πρόγραμμα ισχύει όλες τις υπόλοιπες ώρες.</string>
+    <string name="schedule_fallback_hint">Χωρίς πρόγραμμα: το προφίλ ισχύει όταν δεν ισχύει κανένα προφίλ με πρόγραμμα.</string>
+    <string name="source_in_profile">Στο προφίλ %1$s</string>
+    <string name="profile_removed">Το προφίλ αυτό δεν υπάρχει πλέον.</string>
+    <string name="delete_profile">Διαγραφή προφίλ</string>
+    <string name="delete_profile_confirm">Να διαγραφεί το προφίλ %1$s και οι ρυθμίσεις του;</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="cancel">Άκυρο</string>
+
+
+    <string name="mode_off">Χωρίς υπενθύμιση</string>
+    <string name="mode_phone">Ήχος και δόνηση τηλεφώνου</string>
+    <string name="mode_common">Κοινές ρυθμίσεις</string>
+    <string name="mode_custom">Προσαρμοσμένες ρυθμίσεις</string>
+    <string name="mode_phone_hint">Χρησιμοποιεί τον ήχο ειδοποίησης του τηλεφώνου στην ένταση του τηλεφώνου και ακολουθεί τη λειτουργία κουδουνίσματος, δόνησης ή σίγασης ή το προφίλ ήχου μιας εξαίρεσης επαφών για τις επαφές της. Επαναλαμβάνεται όπως ορίζουν οι κοινές ρυθμίσεις.</string>
+    <string name="source_apps">Εφαρμογές</string>
+    <string name="common_settings">Κοινές ρυθμίσεις</string>
+    <string name="common_settings_hint">Ισχύουν για κάθε τύπο του προφίλ που έχει οριστεί σε Κοινές ρυθμίσεις. Η επανάληψή τους ισχύει και για την επιλογή Ήχος και δόνηση τηλεφώνου.</string>
+    <string name="edit_common_settings">Επεξεργασία κοινών ρυθμίσεων</string>
+    <string name="edit_custom_settings">Επεξεργασία προσαρμοσμένων ρυθμίσεων</string>
+    <string name="custom_settings_title">%1$s: προσαρμοσμένες ρυθμίσεις</string>
+    <string name="summary_every">Κάθε %1$s</string>
+    <string name="summary_sound">ήχος %1$d%%</string>
+    <string name="no_profiles">Δεν υπάρχουν προφίλ. Προσθέστε ένα για να λαμβάνετε υπενθυμίσεις.</string>
+    <string name="no_apps_short">Δεν έχουν επιλεγεί εφαρμογές</string>
+    <plurals name="apps_selected">
+        <item quantity="one">%d επιλεγμένη εφαρμογή</item>
+        <item quantity="other">%d επιλεγμένες εφαρμογές</item>
+    </plurals>
+    <string name="apps_hint">Οι ειδοποιήσεις αυτών των εφαρμογών υπενθυμίζονται όπως ορίζεται για τις Εφαρμογές σε κάθε προφίλ.</string>
+
+    <string name="sound_profiles">Προφίλ ήχου</string>
+    <string name="sound_profiles_hint">Πατήστε ένα προφίλ για να ορίσετε τη λειτουργία κουδουνίσματος, τις εντάσεις και τη δόνηση του τηλεφώνου. Ανεξάρτητο από τις υπενθυμίσεις. Διαθέσιμο και ως πλακίδιο γρήγορων ρυθμίσεων.</string>
+    <string name="sound_loud">Δυνατά</string>
+    <string name="sound_normal">Κανονικά</string>
+    <string name="sound_silent">Αθόρυβα</string>
+    <string name="new_sound_profile_name">Προφίλ ήχου %1$d</string>
+    <string name="add_sound_profile">Προσθήκη προφίλ ήχου</string>
+    <string name="delete_sound_profile">Διαγραφή προφίλ ήχου</string>
+    <string name="sound_profile_applied">Εφαρμόστηκε το προφίλ %1$s</string>
+    <string name="sound_profile_partly_applied">Ορισμένες ρυθμίσεις δεν άλλαξαν. Παραχωρήστε την πρόσβαση «Μην ενοχλείτε» και την τροποποίηση ρυθμίσεων συστήματος από την κάρτα Άδειες.</string>
+    <string name="sound_profile_no_changes">Δεν αλλάζει τίποτα</string>
+    <string name="volume_summary">%1$s %2$d%%</string>
+    <string name="edit">Επεξεργασία</string>
+    <string name="apply_now">Εφαρμογή τώρα</string>
+    <string name="ringer_mode">Λειτουργία κουδουνίσματος</string>
+    <string name="keep_unchanged">Χωρίς αλλαγή</string>
+    <string name="ringer_normal">Ήχος</string>
+    <string name="ringer_vibrate">Δόνηση</string>
+    <string name="ringer_silent">Σίγαση</string>
+    <string name="section_volumes">Εντάσεις</string>
+    <string name="volumes_hint">Ενεργοποιήστε τις εντάσεις που ορίζει το προφίλ. Σε λειτουργία δόνησης και σίγασης οι εντάσεις κουδουνίσματος και ειδοποιήσεων δεν αλλάζουν.</string>
+    <string name="stream_ring">Κουδούνισμα</string>
+    <string name="stream_notification">Ειδοποιήσεις</string>
+    <string name="stream_media">Πολυμέσα</string>
+    <string name="stream_alarm">Ξυπνητήρια</string>
+    <string name="stream_system">Σύστημα</string>
+    <string name="stream_call">Κλήσεις</string>
+    <string name="vibrate_when_ringing">Δόνηση για κλήσεις</string>
+    <string name="touch_vibration">Δόνηση αφής</string>
+    <string name="system_settings_hint">Απαιτεί τροποποίηση ρυθμίσεων συστήματος. Ορισμένα τηλέφωνα δεν επιτρέπουν σε εφαρμογές να αλλάζουν αυτές τις δύο ρυθμίσεις.</string>
+    <string name="toggle_on">Ενεργό</string>
+    <string name="toggle_off">Ανενεργό</string>
+    <string name="do_not_disturb">Μην ενοχλείτε</string>
+    <string name="dnd_off">Ανενεργό</string>
+    <string name="dnd_priority">Μόνο προτεραιότητας</string>
+    <string name="dnd_alarms">Μόνο ξυπνητήρια</string>
+    <string name="dnd_total_silence">Πλήρης σίγαση</string>
+    <string name="perm_dnd_access">Πρόσβαση «Μην ενοχλείτε»</string>
+    <string name="perm_dnd_access_hint">Επιτρέπει στα προφίλ ήχου να αλλάζουν τη σίγαση και τη λειτουργία «Μην ενοχλείτε»</string>
+    <string name="perm_write_settings">Τροποποίηση ρυθμίσεων συστήματος</string>
+    <string name="perm_write_settings_hint">Επιτρέπει στα προφίλ ήχου να αλλάζουν τη δόνηση για κλήσεις και τη δόνηση αφής</string>
+
+    <string name="sound_lock">Κλείδωμα ρυθμίσεων ήχου</string>
+    <string name="sound_lock_off_hint">Ξεκλείδωτο. Ενεργοποιήστε για να διατηρηθούν η λειτουργία κουδουνίσματος, οι εντάσεις, η δόνηση και η λειτουργία «Μην ενοχλείτε» μέχρι να τα ξεκλειδώσετε εδώ.</string>
+    <string name="sound_lock_on_hint">Κλειδωμένο. Οι αλλαγές από τα πλήκτρα έντασης, τις ρυθμίσεις του τηλεφώνου ή άλλες εφαρμογές αναιρούνται αμέσως. Η εφαρμογή ενός προφίλ ήχου εδώ μεταφέρει το κλείδωμα σε αυτό.</string>
+    <string name="block_volume_buttons">Αποκλεισμός πλήκτρων έντασης όσο είναι κλειδωμένο</string>
+    <string name="block_volume_buttons_hint">Χρησιμοποιεί υπηρεσία προσβασιμότητας ώστε τα πλήκτρα έντασης να μην κάνουν τίποτα όσο είναι κλειδωμένο. Πατήστε για ενεργοποίηση ή απενεργοποίηση στις ρυθμίσεις προσβασιμότητας.</string>
+    <string name="sound_lock_needs_service">Το κλείδωμα δεν είναι ενεργό: παραχωρήστε πρόσβαση στις ειδοποιήσεις ή ενεργοποιήστε τον αποκλεισμό των πλήκτρων έντασης, ώστε η εφαρμογή να παρακολουθεί τις ρυθμίσεις ήχου.</string>
+    <string name="sound_locked_toast">Οι ρυθμίσεις ήχου είναι κλειδωμένες. Ξεκλειδώστε τες στην εφαρμογή Υπενθυμίσεις ειδοποιήσεων.</string>
+    <string name="accessibility_label">Κλείδωμα ήχου Υπενθυμίσεων ειδοποιήσεων</string>
+    <string name="accessibility_description">Αποκλείει τα πλήκτρα έντασης όσο οι ρυθμίσεις ήχου είναι κλειδωμένες στην εφαρμογή Υπενθυμίσεις ειδοποιήσεων. Δεν διαβάζει το περιεχόμενο της οθόνης.</string>
+
+    <string name="lock_includes_app">Το κλείδωμα ισχύει και για την εφαρμογή</string>
+    <string name="lock_includes_app_off_hint">Ανενεργό: όσο είναι κλειδωμένο, τα προφίλ ήχου που εφαρμόζονται εδώ και οι υπενθυμίσεις που αυξάνουν την ένταση λειτουργούν κανονικά.</string>
+    <string name="lock_includes_app_on_hint">Ενεργό: όσο είναι κλειδωμένο, τα προφίλ ήχου δεν εφαρμόζονται και οι υπενθυμίσεις παίζουν χωρίς αύξηση της έντασης. Ξεκλειδώστε πρώτα για να αλλάξετε οτιδήποτε.</string>
+    <string name="sound_locked_for_app_toast">Οι ρυθμίσεις ήχου είναι κλειδωμένες και για την εφαρμογή. Ξεκλειδώστε τες πρώτα.</string>
+
+    <string name="profile_status_channel">Επιλεγμένο προφίλ</string>
+    <string name="status_title_locked">%1$s (κλειδωμένο)</string>
+    <string name="status_reminder_profile">Προφίλ υπενθυμίσεων: %1$s</string>
+    <string name="status_reminders_off">Οι υπενθυμίσεις είναι απενεργοποιημένες</string>
+    <string name="status_no_reminder_profile">Κανένα ενεργό προφίλ υπενθυμίσεων</string>
+    <string name="show_in_status_bar">Εμφάνιση στη γραμμή κατάστασης</string>
+    <string name="show_in_status_bar_hint">Εμφανίζει το εικονίδιο του επιλεγμένου προφίλ στο πάνω μέρος της οθόνης, μαζί με τα εικονίδια ειδοποιήσεων. Σύρετε προς τα κάτω για να δείτε τα προφίλ ήχου και υπενθυμίσεων και να αλλάξετε προφίλ.</string>
+    <string name="profile_icon">Εικονίδιο</string>
+    <string name="icon_volume_up">Δυνατό ηχείο</string>
+    <string name="icon_volume_down">Χαμηλό ηχείο</string>
+    <string name="icon_vibrate">Δόνηση</string>
+    <string name="icon_mute">Ηχείο σε σίγαση</string>
+    <string name="icon_bell">Καμπανάκι</string>
+    <string name="icon_moon">Φεγγάρι</string>
+    <string name="icon_letter">Πρώτο γράμμα του ονόματος</string>
+
+    <string name="wifi_rules">Δίκτυα Wi-Fi</string>
+    <string name="wifi_connected_to">Συνδεδεμένο στο %1$s</string>
+    <string name="wifi_not_connected">Δεν υπάρχει σύνδεση Wi-Fi ή το όνομα του δικτύου δεν είναι ορατό (δείτε την ενότητα Τοποθεσία σε έναν κανόνα).</string>
+    <string name="wifi_rule_active">(συνδεδεμένο)</string>
+    <string name="wifi_summary_locked">κλειδωμένο όσο υπάρχει σύνδεση</string>
+    <string name="wifi_summary_manual">αλλάζει χειροκίνητα</string>
+    <string name="wifi_profile_missing">Διαγραμμένο προφίλ</string>
+    <string name="add_wifi_rule">Προσθήκη δικτύου Wi-Fi</string>
+    <string name="delete_wifi_rule">Διαγραφή κανόνα Wi-Fi</string>
+    <string name="delete_wifi_rule_confirm">Να διαγραφεί ο κανόνας για το %1$s;</string>
+    <string name="wifi_rule">Κανόνας Wi-Fi</string>
+    <string name="wifi_network">Δίκτυο</string>
+    <string name="wifi_network_name">Όνομα δικτύου Wi-Fi (SSID)</string>
+    <string name="wifi_use_current">Χρήση τρέχοντος δικτύου: %1$s</string>
+    <string name="wifi_name_hidden_hint">Το όνομα του τρέχοντος δικτύου δεν είναι ορατό. Συνδεθείτε στο δίκτυο και παραχωρήστε την πρόσβαση στην τοποθεσία παρακάτω, έπειτα πατήστε Χρήση τρέχοντος δικτύου ή πληκτρολογήστε το όνομα ακριβώς.</string>
+    <string name="wifi_when_connected">Κατά τη σύνδεση</string>
+    <string name="wifi_apply_profile">Προφίλ ήχου</string>
+    <string name="wifi_while_connected">Όσο υπάρχει σύνδεση</string>
+    <string name="wifi_lock">Κλείδωμα του προφίλ</string>
+    <string name="wifi_manual">Χειροκίνητη αλλαγή επιτρέπεται</string>
+    <string name="wifi_lock_hint">Οι ρυθμίσεις ήχου κλειδώνουν όσο το τηλέφωνο είναι συνδεδεμένο σε αυτό το δίκτυο και ξεκλειδώνουν όταν αποσυνδεθεί. Μπορείτε πάντα να τις ξεκλειδώσετε από την εφαρμογή.</string>
+    <string name="wifi_manual_hint">Το προφίλ εφαρμόζεται μία φορά κατά τη σύνδεση. Στη συνέχεια μπορείτε να αλλάζετε προφίλ ελεύθερα.</string>
+    <string name="wifi_restore_previous_hint">Όταν το τηλέφωνο αποσυνδεθεί από το δίκτυο, εφαρμόζεται ξανά το προφίλ ήχου που ήταν επιλεγμένο πριν από τη σύνδεση.</string>
+    <string name="wifi_rule_enabled">Ενεργός κανόνας</string>
+    <string name="perm_location">Πρόσβαση στην τοποθεσία</string>
+    <string name="perm_location_hint">Το Android αποκαλύπτει το όνομα του δικτύου Wi-Fi μόνο σε εφαρμογές με πρόσβαση στην τοποθεσία. Η εφαρμογή δεν χρησιμοποιεί την τοποθεσία σας.</string>
+    <string name="perm_background_location">Πρόσβαση στην τοποθεσία συνεχώς</string>
+    <string name="perm_background_location_hint">Απαιτείται για την αναγνώριση του δικτύου όταν η εφαρμογή είναι κλειστή. Επιλέξτε Να επιτρέπεται πάντα.</string>
+    <string name="location_services">Ενεργές υπηρεσίες τοποθεσίας</string>
+    <string name="location_services_hint">Το Android κρύβει τα ονόματα δικτύων Wi-Fi όταν η τοποθεσία είναι απενεργοποιημένη</string>
+    <string name="status_with_wifi">%1$s, κανόνας Wi-Fi: %2$s</string>
+
+    <string name="wifi_choose_from_list">Επιλογή από λίστα</string>
+    <string name="wifi_list_current">Συνδεδεμένο τώρα</string>
+    <string name="wifi_list_known">Προηγούμενες συνδέσεις</string>
+    <string name="wifi_list_known_empty">Κανένα ακόμα. Τα δίκτυα εμφανίζονται εδώ αφού το τηλέφωνο συνδεθεί σε αυτά όσο η εφαρμογή είναι εγκατεστημένη.</string>
+    <string name="wifi_list_nearby">Σε εμβέλεια</string>
+    <string name="wifi_list_nearby_empty">Δεν βρέθηκαν δίκτυα. Απαιτούνται η πρόσβαση στην τοποθεσία και οι υπηρεσίες τοποθεσίας για την εμφάνιση των κοντινών δικτύων.</string>
+    <string name="wifi_list_hint">Το Android δεν επιτρέπει στις εφαρμογές να διαβάζουν τη λίστα αποθηκευμένων δικτύων του τηλεφώνου, γι’ αυτό η λίστα δείχνει τα δίκτυα στα οποία η εφαρμογή είδε το τηλέφωνο να συνδέεται και τα δίκτυα που βρίσκονται τώρα σε εμβέλεια.</string>
+
+    <string name="contact_exceptions">Εξαιρέσεις επαφών</string>
+    <string name="contact_exceptions_hint">Επιλεγμένες επαφές και ομάδες επαφών χρησιμοποιούν δικό τους προφίλ ήχου αντί του τρέχοντος.</string>
+    <string name="new_contact_exception_name">Εξαίρεση %1$d</string>
+    <string name="add_contact_exception">Προσθήκη εξαίρεσης επαφών</string>
+    <string name="delete_contact_exception">Διαγραφή εξαίρεσης επαφών</string>
+    <plurals name="exception_people">
+        <item quantity="one">%d επαφή ή ομάδα</item>
+        <item quantity="other">%d επαφές ή ομάδες</item>
+    </plurals>
+    <string name="exception_people_title">Επαφές και ομάδες</string>
+    <string name="exception_contacts">Επαφές</string>
+    <string name="exception_no_contacts">Δεν έχουν επιλεγεί επαφές</string>
+    <string name="exception_add_contact">Προσθήκη επαφής</string>
+    <string name="exception_groups">Ομάδες επαφών</string>
+    <string name="exception_no_groups">Δεν υπάρχουν ομάδες επαφών στο τηλέφωνο. Δημιουργήστε ομάδες (ετικέτες) στην εφαρμογή Επαφές.</string>
+    <string name="exception_applies_to">Ισχύει για</string>
+    <string name="exception_calls">Εισερχόμενες κλήσεις</string>
+    <string name="exception_calls_hint">Το τηλέφωνο κουδουνίζει με αυτό το προφίλ ήχου και οι προηγούμενες ρυθμίσεις επανέρχονται με το τέλος της κλήσης</string>
+    <string name="exception_calls_unsupported">Οι εισερχόμενες κλήσεις απαιτούν Android 10 ή νεότερο.</string>
+    <string name="exception_messages">Μηνύματα και ειδοποιήσεις εφαρμογών</string>
+    <string name="exception_messages_hint">Τα SMS και οι ειδοποιήσεις των επιλεγμένων εφαρμογών από αυτές τις επαφές λαμβάνουν δική τους ειδοποίηση με αυτό το προφίλ ήχου</string>
+    <string name="exception_reminders_hint">Οι υπενθυμίσεις με την επιλογή Ήχος και δόνηση τηλεφώνου χρησιμοποιούν επίσης αυτό το προφίλ ήχου για αυτές τις επαφές.</string>
+    <string name="perm_contacts">Πρόσβαση στις επαφές</string>
+    <string name="perm_contacts_hint">Απαιτείται για την επιλογή επαφών και ομάδων και την αναγνώριση καλούντων και αποστολέων</string>
+    <string name="perm_call_screening">Εφαρμογή αναγνώρισης κλήσεων και ανεπιθύμητων</string>
+    <string name="perm_call_screening_hint">Επιτρέπει στην εφαρμογή να μαθαίνει για μια κλήση πριν κουδουνίσει το τηλέφωνο, ώστε να αλλάζει εγκαίρως το προφίλ ήχου. Οι κλήσεις δεν αποκλείονται ποτέ.</string>
+
+    <string name="quiet_wifi">Χωρίς υπενθυμίσεις σε δίκτυα Wi-Fi</string>
+    <string name="quiet_wifi_hint">Καμία υπενθύμιση με αυτές τις ρυθμίσεις όσο το τηλέφωνο είναι συνδεδεμένο σε αυτά τα δίκτυα, για παράδειγμα στο σπίτι. Οι ειδοποιήσεις που φτάνουν εκεί δεν υπενθυμίζονται ποτέ. Οι υπενθυμίσεις που ξεκίνησαν αλλού σταματούν προσωρινά όσο υπάρχει σύνδεση και συνεχίζονται μετά την αποσύνδεση.</string>
+    <string name="quiet_add_network">Προσθήκη δικτύου</string>
+    <string name="quiet_all">Όλες οι ειδοποιήσεις</string>
+    <string name="quiet_on_network">Χωρίς υπενθυμίσεις στο %1$s</string>
+    <string name="quiet_needs_location">Για την αναγνώριση των δικτύων, παραχωρήστε την πρόσβαση στην τοποθεσία που εμφανίζεται σε έναν κανόνα Wi-Fi της κάρτας Προφίλ ήχου.</string>
+</resources>
