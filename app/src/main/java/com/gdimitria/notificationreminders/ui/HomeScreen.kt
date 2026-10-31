@@ -86,12 +86,7 @@ fun HomeScreen(
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp),
         ) {
-            SoundProfilesCard(
-                onEdit = onEditSoundProfile,
-                onEditWifiRule = onEditWifiRule,
-                onEditContactException = onEditContactException,
-            )
-
+            // The reminders master switch first, then the sound profiles, then the reminder sections.
             Card(
                 colors = CardDefaults.cardColors(
                     containerColor = if (settings.masterEnabled) {
@@ -119,6 +114,12 @@ fun HomeScreen(
                     }
                 }
             }
+
+            SoundProfilesCard(
+                onEdit = onEditSoundProfile,
+                onEditWifiRule = onEditWifiRule,
+                onEditContactException = onEditContactException,
+            )
 
             PermissionsCard(permissions)
 
